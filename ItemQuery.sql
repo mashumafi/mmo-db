@@ -1,0 +1,1 @@
+select accounts.id, accounts.nickname, characters.id, characters.account, equipment.account, equipment.bottom, equipment.gloves, equipment.hair, equipment.hat, equipment.shoes, equipment.skin, equipment.top, items.id, items.image, items.slot from accounts inner join characters inner join equipment inner join items on accounts.id=Characters.account;
